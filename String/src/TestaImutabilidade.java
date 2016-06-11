@@ -5,6 +5,9 @@ public class TestaImutabilidade {
 		String nomeAlterado = nome.toUpperCase();
 		System.out.println(nome);
 		System.out.println(nomeAlterado);
+		
+		String a = new String(new char[] { 'J', 'o', 'n', 'a', 's' });
+		System.out.println(a);
 	}
 	
 }
